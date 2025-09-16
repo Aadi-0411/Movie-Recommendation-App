@@ -1,13 +1,94 @@
-# React + Vite
+# 🎬 Movie Recommendation App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web application that recommends movies based on user input.  
+Frontend built with **React + Vite**, backend powered by **Appwrite.io** (Database + API).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Search for a movie and get similar recommendations  
+- Clean and responsive UI  
+- Uses **Appwrite Database** to store and fetch movie data  
+- No authentication required — fast and simple access  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Movie-Recommendation-App
+## 🛠️ Tech Stack
+- **Frontend:** React, Vite, JavaScript, CSS  
+- **Backend:** Appwrite.io (Database, API)  
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Aadi-0411/Movie-Recommendation-App.git
+   cd Movie-Recommendation-App
+
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Set environment variables**
+   Create a `.env` file in the project root:
+
+   ```bash
+   VITE_APPWRITE_PROJECT_ID=your_project_id
+   VITE_APPWRITE_DATABASE_ID=your_database_id
+   VITE_APPWRITE_COLLECTION_ID=your_collection_id
+   VITE_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
+   ```
+
+4. **Run the app locally**
+
+   ```bash
+   npm run dev
+   ```
+
+   The app will be available at:
+
+   ```
+   http://localhost:5173/
+   ```
+
+---
+
+## 📂 Project Structure
+
+```
+Movie-Recommendation-App/
+│-- src/
+│   │-- components/     # UI components
+│   │-- pages/          # App pages
+│   │-- services/       # Appwrite client setup
+│   └-- App.jsx         # Main app
+│-- public/             # Static assets
+│-- .env                # Environment variables
+│-- package.json        # Dependencies
+│-- vite.config.js      # Vite config
+│-- README.md           # Documentation
+```
+
+---
+
+## 🌐 Deployment
+
+* **Frontend:** Deploy easily on [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/)
+* **Backend:** Hosted on [Appwrite Cloud](https://cloud.appwrite.io/)
+
+  * Just update your `.env` file with the correct project and database IDs.
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to fork this repo and submit a pull request.
+
+---
+
+
