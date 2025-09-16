@@ -40,7 +40,7 @@ Frontend built with **React + Vite**, backend powered by **Appwrite.io** (Databa
    VITE_APPWRITE_PROJECT_ID=your_project_id
    VITE_APPWRITE_DATABASE_ID=your_database_id
    VITE_APPWRITE_COLLECTION_ID=your_collection_id
-   VITE_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
+   VITE_APPWRITE_ENDPOINT=https://<your_region>.cloud.appwrite.io/v1
    ```
 
 4. **Run the app locally**
