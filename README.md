@@ -75,15 +75,6 @@ Movie-Recommendation-App/
 
 ---
 
-## 🌐 Deployment
-
-* **Frontend:** Deploy easily on [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/)
-* **Backend:** Hosted on [Appwrite Cloud](https://cloud.appwrite.io/)
-
-  * Just update your `.env` file with the correct project and database IDs.
-
----
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
